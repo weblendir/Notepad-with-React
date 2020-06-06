@@ -32,7 +32,7 @@ function App() {
 			setNotes(notesLocal);
 		}
 		console.log(notesLocal);
-		console.log(notes);
+		// console.log(notes);
 	}, []);
 	function EditForm(ind) {
 		setnoteItem({ title: notes[ind].title, content: notes[ind].content });
